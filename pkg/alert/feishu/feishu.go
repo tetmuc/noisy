@@ -8,7 +8,7 @@ import (
 	"net/http"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tetmu/noisy/pkg/alert"
+	"github.com/tetmuc/noisy/pkg/alert"
 )
 
 func NewFeishuRot(webhook string) alert.IAlert {
